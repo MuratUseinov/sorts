@@ -6,8 +6,8 @@
  * Time: 18:15
  */
 
-//Asymptotics in worst case – O(n2), in best case – O(n).
-class BubbleSort
+//Asymptotics is in worst case – O(n2), in best case – O(n).
+class Bubble
 {
     public static function sortWithForeach(&$array)
     {
@@ -39,9 +39,9 @@ class BubbleSort
 }
 
 $array = [156, 0, 3, 1, 9, 2, 5, 6, 8, 0, 100, 3, 1, 9, 2, 5, 6, 8, 7, 7, 7, 7, 7];
-BubbleSort::sortWithFor($array);
+Bubble::sortWithFor($array);
 print_r($array);
 
 $array = [156, 0, 3, 1, 9, 2, 5, 6, 8, 0, 100, 3, 1, 9, 2, 5, 6, 8, 7, 7, 7, 7, 7];
-BubbleSort::sortWithFor($array);
+Bubble::sortWithFor($array);
 print_r($array);
