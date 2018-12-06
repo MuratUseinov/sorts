@@ -6,7 +6,7 @@
  * Time: 18:15
  */
 
-//Asymptotics is in worst case – O(n2), in best case – O(n).
+//Asymptotics is in worst case – O(n^2), in best case – O(n).
 class Bubble
 {
     public static function sortWithForeach(&$array)
